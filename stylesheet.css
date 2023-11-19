@@ -1,0 +1,114 @@
+.topnav {
+  overflow: hidden;
+  margin: auto;
+  width: 99%;
+  padding: 5px;
+}
+.topnav a {
+  background-color: white;
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 19px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #D28835;
+  color: white;
+}
+.topnav .logo-link{
+  margin: auto;
+  padding: 1px 1px;
+  float: left;
+  background-color: transparent;
+}
+.topnav .logo-link:hover{
+  color: transparent;
+  background-color: transparent;
+}
+.logo-menybar{
+  height: 50px;
+  width: auto;
+}
+#cover{
+  background-image: url(Images/bibliotek.jpg);
+  background-position: center;
+}
+.text-color{
+  color: black;
+}
+.center-text{
+  text-align: center;
+}
+.font{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-p{
+  font-size: 15px;
+}
+.text-h1{
+  font-size: 70px;
+}
+.innhold{
+  position: relative;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+.bakgrunn{
+  background-color: rgb(228, 228, 228);
+}
+
+.container{
+  display: inline-block;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+
+/*lånt fra w3Schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #D28835;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #D28835;
+}
+
+.contact-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/*lånt fra w3Schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form */

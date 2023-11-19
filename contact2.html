@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="style-contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Lora:wght@600&family=Merriweather&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<div class="innhold_forside">
+
+    <!-- nav-meny -->
+
+    <header class="header">
+        <a href="index.html">
+            <div class="left-content">
+                <img src="Images/StudentTechSolutuions_Logo1.png" class="logoImage" alt="student tech solutions">
+                <span class="companyName">Student Tech Solutions</span>
+            </div>
+        </a>
+
+        <input class="meny_knapp" type="checkbox" id="meny_knapp"/>
+        <label class="meny_ikon" for="meny_knapp">
+            <i title="Mobile menu" id="mobil_meny_ikon" class="fas fa-bars"> Menu</i></label>
+        <ul class="meny">
+            <li><a title="Products" href="Products.html">Products</a></li>
+            <li><a title="About" href="about2.html">About</a></li>
+            <li><a title="Contact" href="contact2.html">Contact</a></li>
+        </ul>
+    </header>
+</div>
+
+<!-- hero del -->
+
+<div class="contactHeroImage">
+    <div class="container-header">
+        <div class="innholdfront">
+            <div class="heading">
+                <h1>
+                    How can we help you?
+                </h1>
+                <p>At Student Tech Solutions, we are always happy to help address any concerns you may have and appreciate
+                    any feedback. Please don't hesitate to get in touch by submitting a message through our contact form.
+                </p>
+            </div>
+
+            <div class="contact-conatiner">
+                <!-- lånt fra w3Schools https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form -->
+                <div class="contact-form">
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+    <div class="social-icons">
+        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+</footer>
+
+</body>
+
+
+</html>

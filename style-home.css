@@ -1,0 +1,344 @@
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    -webkit-text-stroke-width: 0.7px;
+    background-image: url("Bilder/12151163_4877010.jpg");
+
+
+}
+
+.forside {
+    margin: 0;
+    height: 6vh;
+    width: 100%;
+    padding: 0;
+    max-width: none;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    box-shadow: 1px -2px 4px 0;
+}
+
+
+
+
+
+
+/******************  meny  *****************/
+
+a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 18px;
+}
+
+.header .meny {
+    clear: none;
+    float: right;
+    max-height: none;
+}
+
+
+/*************** ikon meny *************************/
+
+.header .meny_ikon {
+    float: right;
+    padding: 20px 20px;
+    position: relative;
+}
+
+/************************ meny knapp *********************/
+
+.header .meny_knapp {
+    display: none;
+}
+
+.header .meny_knapp:checked ~ .meny {
+    max-height: 260px;
+}
+
+#mobil_meny_ikon {
+    display: none;
+}
+
+
+
+/******************* header **********************'*/
+
+
+.header {
+    height: 45px;
+    position: fixed;
+    background-image: url("Bilder/fly-d-b7tZMiB_TG4-unsplash.jpg");         /* image from  https://www.unsplash.com/ */
+    width: 100%;
+    z-index: 5;
+    box-shadow: 1px -2px 4px 0;
+    opacity: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+}
+
+.companyName {
+    font-size: 24px;
+    color: black;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.header li a {
+    display: block;
+    border-right: 1px solid #f5f5f5;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+
+}
+.header li {
+    float: left;
+}
+
+
+/***************'  Hero *****************/
+/*https://www.w3schools.com/howto/howto_css_hero_image.asp*/
+
+
+
+.heroImage {
+    /* image from  https://www.freepik.com/author/benzoix*/
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url("Bilder/caucasian-man-with-headphones-backpack-looking-phone-reading-message-smiling-standing-ove (1).jpg");
+}
+.tekst-image{
+    height: 90%;
+    float: right;
+    margin-right: 20%;
+    position: relative;
+    top: -100px; /* Move the image 20 pixels upwards */
+    transform: scale(1.5); /* This will zoom in the image by a factor */
+
+}
+.logoImage{
+    height: 6vh;
+    padding: 0px 4px 0;
+}
+
+.underskrift {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    font-size: 20px;
+    color: black;
+    margin-top: 5%;
+}
+
+
+
+
+/**************************   arrow       ****************************/
+/* https://codepen.io/priyankal/pen/zRvNyV */
+
+.scroll-down-arrow {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    position: relative;
+    float: right;
+    margin-top: 30%;
+}
+
+.scroll-down-arrow .arrow {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    width: 26px;
+    height: 26px;
+    border-left: 6px solid black;
+    border-bottom: 6px solid black;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    box-sizing: border-box;
+    margin-left: 80%;
+
+}
+
+
+
+
+
+/******************** images and reviews (venstre div med reviews)  **********************/
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-right: 100px;
+
+}
+
+.reviews {
+    flex: 1;
+    padding-left: 50px;
+}
+.tekst{
+    font-family: 'sans-serif', Calibri;
+    font-size: 20px;
+    padding-left: 80px;
+}
+.tekst2{
+    font-family: 'sans-serif', Calibri;
+    font-size: 20px;
+    padding-left: 85px;
+}
+.review1{
+    margin-bottom:  5px;
+    margin-right: 125px;
+
+}
+.sign{
+    font-size: 10px;
+    padding-left: 220px;
+
+}
+.review2{
+    padding-top: 30px;
+    margin-right: 125px;
+}
+
+.sign2{
+    font-size: 10px;
+    padding-left: 225px;
+}
+.rev-overskrift{
+    padding-left: 210px;
+}
+
+
+
+/************ images and reviews (høyre div med 2screenshots) ************/
+
+.imagesContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.images {
+    display: flex;
+}
+
+.image {
+    overflow: hidden;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+}
+.screenshot{
+    padding-left: 20px;
+}
+
+
+
+.downloadbutton {
+    width: 80%;
+    background-color: #e0e0e0;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.downloadbutton i {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: green;
+}
+
+
+/*****************Footer******************/
+
+footer {
+    background-image: url("Bilder/fly-d-b7tZMiB_TG4-unsplash.jpg");    /* image from  https://www.freepik.com/ */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+.social-icons img {
+    background-image: url("https://img.freepik.com/free-photo/abstract-smooth-orange-background-layout-designstudioroom-web-template-business-report-with-smooth-c_1258-54783.jpg?w=1380&t=st=1698878000~exp=1698878600~hmac=21b1a7c4135204bcc7c7cf320234d6ee41c3d7bbafb1118a7be66027cac685f7");
+    width: 32px;
+    height: 32px;
+}
+
+/* referanser og inspirasjon
+
+ansatt del presentasjon: https://github.com/codingmarket07/our-team-section-ap30/blob/master/index.html
+
+bilder: bakgrunn hero  https://www.freepik.com/author/benzoix)
+        bakgrunn review (https://www.freepik.com/free-vector/white-abstract-wallpaper_12151163.htm)
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+

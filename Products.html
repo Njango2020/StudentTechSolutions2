@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style-products.css">
+    <link rel="stylesheet" href="style-home.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+<div class="innhold_forside">
+    <!-- Header and menu content -->
+    <header class="header">
+        <a href="index.html">
+            <div class="left-content">
+                <img src="Images/StudentTechSolutuions_Logo1.png" class="logoImage">
+                <span class="companyName">Student Tech Solutions</span>
+            </div>
+        </a>
+
+        <input class="meny_knapp" type="checkbox" id="meny_knapp"/>
+        <label class="meny_ikon" for="meny_knapp">
+            <i title="Mobile menu" id="mobil_meny_ikon" class="fas fa-bars"> Menu</i></label>
+        <ul class="meny">
+            <li><a title="Products" href="Products.html">Products</a></li>
+            <li><a title="About" href="about2.html">About</a></li>
+            <li><a title="Contact" href="contact2.html">Contact</a></li>
+        </ul>
+    </header>
+</div>
+
+
+<div class="productsHeroImage">
+    <div class="container-header">
+        <div class="left-container">
+            <h2 class="h2overskrift">StudentGuiden</h2>
+            <p class="guidenTekst">Our app, Student Tech Solutions, has been making a positive impact on the lives of students.
+                One of the most popular features is BookTrade, where students can buy, sell, or give away their textbooks.
+                The app also offers a section for student reviews, where users can share their experiences with different courses
+                and professors. We believe that by bringing together the knowledge and experience of students,
+                we can create a community that supports each other in achieving academic success.
+                So why not download Student Tech Solutions today and see how we can redefine your student life?</p>
+
+            <a href="#section-to-scroll-to" class="scroll-down-arrow2">
+                <span class="arrow"></span>
+            </a>
+        </div>
+        <div class="right-container">
+            <div class="handimage">
+                <img src="Bilder/hand.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="section-to-scroll-to">
+
+<div class="color-div"></div>
+<div class="screens">
+    <img src="Bilder/iphonesScreens.png" class="imgScreens">
+    <div class="downloadbuttonProducts">
+        <i class="fa-solid fa-download">  Download now</i>
+    </div>
+
+</div>
+</section>
+
+<footer>
+    <div class="social-icons">
+        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+</footer>
+
+<script>
+    document.querySelector('.scroll-down-arrow2').addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute('href'));
+        window.scroll({
+            top: target.offsetTop,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+
+</body>
+</html>

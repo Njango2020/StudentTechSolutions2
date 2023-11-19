@@ -1,0 +1,157 @@
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    -webkit-text-stroke-width: 0.7px;
+}
+
+/*************** Container for hero image og content *****************/
+
+.container-header {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url("Bilder/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner (2).jpg");
+    display: flex;
+}
+
+
+.image-screenshot {
+    height: 49%;
+}
+
+.aboutHeroImage {
+    width: 100%;
+    height: 80vh;
+    box-sizing: border-box;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.tekst-image2{
+    height: 40%;
+    width: auto;
+    float: right;
+    margin-right: 20%;
+    position: relative;
+
+}
+
+/*********** Venstre container (tekst) på hero område ******************/
+.innholdTop {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutTekst{
+    font-size: 17px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.7;
+    text-align: left;
+    margin-left: 40%;
+    width: 600px;
+
+}
+
+
+.aboutOverskrift{
+    margin-top: -30px;
+    margin-left: 57%;
+    font-size: 50px;
+    /*font-family: Arial;*/
+    font-family: 'Lora', serif;
+    /*font-family: 'Merriweather', serif;*/
+}
+
+
+
+
+/***** Ansatte****/
+
+.emplyee-section {
+    padding-top: 10px;
+    text-align: center;
+    background-image: url("Bilder/12151163_4877010.jpg");
+}
+
+.emplyee-section h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: black;
+    padding-top: -5px;
+}
+
+.emplyee-section .our_team {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.emplyee-section .our_team .team_member {
+    width: 250px;
+    margin: 5px;
+    background-image: url("Bilder/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner (2).jpg");
+    padding: 20px 10px;
+}
+
+.emplyee-section .our_team .team_member .member_img {
+    background: #e9e5fa;
+    max-width: 190px;
+    width: 100%;
+    height: 190px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.emplyee-section .our_team .team_member .member_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.emplyee-section .our_team .team_member h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0 0px;
+    color: black;
+    font-family: Roboto, sans-serif;
+
+}
+
+.emplyee-section .our_team .team_member span {
+    font-size: 10px;
+    color: black;
+    font-family: Roboto, sans-serif;
+}
+
+.emplyee-section .our_team .team_member p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+    font-family: Roboto, sans-serif;
+}
+
+/* referanser og inspirasjon
+
+ansatt del presentasjon: https://github.com/codingmarket07/our-team-section-ap30/blob/master/index.html
+
+bilder: bakgrunn blå (https://www.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_16543342.htm#query=abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner&)
+        ansatt del   (https://www.freepik.com/free-vector/white-abstract-wallpaper_12151163.htm)
+
+
+
+ */
+
